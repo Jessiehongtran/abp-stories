@@ -1,7 +1,7 @@
 export const stories = [
     {
         id: 1,
-        path: "/bigodiva",
+        path: "bigodiva",
         category: "INNOVATION",
         reading_duration: 6,
         title: "Curiosity where it counts",
@@ -80,7 +80,7 @@ export const stories = [
     },
     {
         id: 2,
-        path: "/kape-giting",
+        path: "kape-giting",
         category: "RESILIENCE",
         reading_duration: 0,
         title: "Change — one sip at a time",
@@ -143,7 +143,7 @@ export const stories = [
     },
     {
         id: 3,
-        path: "/maricafe",
+        path: "maricafe",
         category: "INNOVATION",
         reading_duration: 1,
         title: "Maricafe",
@@ -169,7 +169,7 @@ export const stories = [
     },
     {
         id: 4,
-        path: "/franks-honey",
+        path: "franks-honey",
         category: "CONNECTION",
         reading_duration: 5,
         title: "Organic growth with sweet rewards",
@@ -240,7 +240,7 @@ export const stories = [
     },
     {
         id: 5,
-        path: "/kestan",
+        path: "kestan",
         category: "RESILIENCE",
         reading_duration: 2,
         title: "Behind the fabric of success",
