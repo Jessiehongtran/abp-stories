@@ -1,4 +1,3 @@
-import { BlockList } from 'net';
 import React from 'react';
 
 export default class Story extends React.Component<any,any> {
@@ -46,7 +45,7 @@ export default class Story extends React.Component<any,any> {
                         <div style={{ border: '1px solid black', borderRadius: '6px', padding: '3px 5px', fontSize: '12px', marginRight: '20px'  }}>{story.category}</div>
                         <div style={{ display: 'flex', alignItems: 'center' }}>
                             <div style={{ marginRight: '12px', fontWeight: '400' }}>{story.reading_duration} MINUTE READ</div>
-                            <img src="https://res.cloudinary.com/dchyongyd/image/upload/v1636059541/Group_339_xyqtui.svg" style={{ width: '17px' }}/>
+                            <img alt="right arrow" src="https://res.cloudinary.com/dchyongyd/image/upload/v1636059541/Group_339_xyqtui.svg" style={{ width: '17px' }}/>
                         </div>
                     </div>
                     <div style={{ fontSize: '36px', textAlign: 'left', marginTop: '20px', maxWidth: '500px'}}>
