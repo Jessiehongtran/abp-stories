@@ -5,7 +5,7 @@ Present stories under magazine type, in which users can scroll their mouse and e
 ## Deployed version
 
 
-### `npm start`
+## Expected outcome
 
 ### `npm start`
 Runs the app in the development mode.
