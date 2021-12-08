@@ -1,11 +1,11 @@
-## Project goal
+### Project goal
 
 Present stories under magazine type, in which users can scroll their mouse and experience the story expanded. 
 
-## Deployed version
+### Deployed version
 
 
-## Expected outcome
+### Expected outcome
 
 ### `npm start`
 Runs the app in the development mode.
