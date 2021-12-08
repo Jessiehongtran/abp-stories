@@ -13,7 +13,7 @@ export default class App extends React.Component<any,any> {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="test" element={<Test />} />
+          <Route path="/test" element={<Test />} />
          {stories.map(story => 
           <Route 
             path={story.path}
