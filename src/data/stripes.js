@@ -9,7 +9,8 @@ export const stripes = [
     {
         id: 2,
         type: "image",
-        data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639082192/Boutique_not_color_corrected_4_1_lhb4rb.png",
+        // data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639082192/Boutique_not_color_corrected_4_1_lhb4rb.png",
+        data: "andrea.png",
         shown: false,
         alt: "behind purple",
         header: "Andrea's story",
@@ -59,7 +60,8 @@ export const stripes = [
     {
         id: 8,
         type: "image",
-        data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639082914/Bluebird_houses_screenshot_2_5_tupkhd.png",
+        // data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639082914/Bluebird_houses_screenshot_2_5_tupkhd.png",
+        data: "jemhra.png",
         shown: false,
         alt: "behind yellow",
         header: "Jemhra's story",
@@ -84,7 +86,8 @@ export const stripes = [
     {
         id: 11,
         type: "image",
-        data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639083609/Bluebird_houses_screenshot_2_29_ty3xpk.png",
+        // data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639083609/Bluebird_houses_screenshot_2_29_ty3xpk.png",
+        data: "pablo.png",
         shown: false,
         alt: "behind green",
         header: "Pablo's story",
@@ -109,7 +112,8 @@ export const stripes = [
     {
         id: 14,
         type: "image",
-        data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639083772/Bluebird_houses_screenshot_2_7_g0d3ps.png",
+        // data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639083772/Bluebird_houses_screenshot_2_7_g0d3ps.png",
+        data: "frank.png",
         alt: "behind light green",
         header: "Frank's story",
         author: "Frank Mortimer, Owner of Frank's Honey",
@@ -133,7 +137,8 @@ export const stripes = [
     {
         id: 17,
         type: "image",
-        data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639084116/Bluebird_houses_screenshot_2_6_hylgyi.png",
+        // data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639084116/Bluebird_houses_screenshot_2_6_hylgyi.png",
+        data: "kestan.png",
         shown: false,
         alt: "behind light purple",
         header: "Stephanie's story",
