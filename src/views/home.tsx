@@ -23,7 +23,7 @@ export default class Home extends React.Component<any,any> {
         const { stripeData } = this.state;
 
         return (
-            <div style={{ display: 'flex',  }}>
+            <div style={{ display: 'flex', margin: '-6px' }}>
                 <div style={{ textAlign: 'left', backgroundColor: "#4B0550", minHeight: '100vh', padding: '10%', boxSizing: 'border-box', margin: '6px 0' }}>
                     <div style={{ fontWeight: 400, fontSize: '90px', lineHeight: '100%', letterSpacing: '-0.02em', color: '#9B69AA'}}>
                         Ads &
@@ -42,7 +42,7 @@ export default class Home extends React.Component<any,any> {
                             ? <Link to={stripe.link}>
                                 <div style={{ position: "relative", minHeight: "100vh", margin: '0', cursor: 'pointer'}}>
                                     <img alt={stripe.alt} src={stripe.data} style={{marginTop: '5px'}} /> 
-                                    <div className="info" style={{ position: 'absolute', bottom: '100px', left: '20px', display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
+                                    <div className="info" style={{ position: 'absolute', bottom: '150px', left: '20px', display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
                                         <p style={{ fontWeight: 'bold', fontSize: '18px', lineHeight: '15px', letterSpacing: '0.085em', textTransform: 'uppercase', color: '#F0EBF5', marginBottom: '30px'}}>FEATURE</p>
                                         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px'}}>
                                             <div style={{ marginRight: '15px', fontSize: '34px', lineHeight: '32px', color: '#F1F4F7' }}>{stripe.header}</div>

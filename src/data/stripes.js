@@ -24,31 +24,31 @@ export const stripes = [
         connected_to: 2,
         alt: "purple close"
     },
-    {
-        id: 4,
-        type: "stripe",
-        data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639081650/Group_400_ydmby1.svg",
-        connected_to: 5,
-        alt: "blue open"
-    },
-    {
-        id: 5,
-        type: "image",
-        data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639082250/Bluebird_houses_screenshot_2_28_w1ixuc.png",
-        shown: false,
-        alt: "behind blue",
-        header: "Lindiwe's story",
-        author: "Lindiwe Masango, Owner of Lee Ice Cubes",
-        location: "Pretoria, South Africa",
-        link: ""
-    },
-    {
-        id: 6,
-        type: "stripe",
-        data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639082591/Group_403_1_hnkjxz.svg",
-        connected_to: 5,
-        alt: "blue close"
-    },
+    // {
+    //     id: 4,
+    //     type: "stripe",
+    //     data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639081650/Group_400_ydmby1.svg",
+    //     connected_to: 5,
+    //     alt: "blue open"
+    // },
+    // {
+    //     id: 5,
+    //     type: "image",
+    //     data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639082250/Bluebird_houses_screenshot_2_28_w1ixuc.png",
+    //     shown: false,
+    //     alt: "behind blue",
+    //     header: "Lindiwe's story",
+    //     author: "Lindiwe Masango, Owner of Lee Ice Cubes",
+    //     location: "Pretoria, South Africa",
+    //     link: ""
+    // },
+    // {
+    //     id: 6,
+    //     type: "stripe",
+    //     data: "https://res.cloudinary.com/dchyongyd/image/upload/v1639082591/Group_403_1_hnkjxz.svg",
+    //     connected_to: 5,
+    //     alt: "blue close"
+    // },
     {
         id: 7,
         type: "stripe",
