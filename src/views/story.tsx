@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Story extends React.Component<any,any> {
     constructor(props: any){
@@ -61,6 +62,13 @@ export default class Story extends React.Component<any,any> {
                                               </div>
                                             : <div style={{ width: '300px', marginRight: '80px', textAlign: 'left' }}>{block.text}</div>)}
                     </div>
+                </div>
+                <div style={{ fontSize: '30px', position: 'fixed', right: '5%', top: '1.5%', zIndex: 4 }}>
+                    <Link to="/">
+                        <img 
+                            style={{ width: '25px' }} 
+                            src="https://res.cloudinary.com/dchyongyd/image/upload/v1639097562/Group_353_2_jvmgow.svg" />
+                    </Link>
                 </div>
             </div>
         )
