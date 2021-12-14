@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Story from './views/story';
 import Home from './views/home';
-import Test from './views/test';
+import Stories from './views/stories';
+import Nav from './views/nav';
 import { stories } from './data/stories';
 import { Route, Routes } from 'react-router-dom';
 
@@ -12,8 +13,22 @@ export default class App extends React.Component<any,any> {
     return (
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/test" element={<Test />} />
+          <Route 
+            path="/" 
+            element={
+            <>
+              <Nav />
+              <Home/>
+            </>
+            } />
+          <Route 
+            path="/stories" 
+            element={
+              <>
+                <Nav />
+                <Stories />
+              </>
+            } />
          {stories.map(story => 
           <Route 
             path={story.path}

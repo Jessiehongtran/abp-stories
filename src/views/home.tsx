@@ -46,7 +46,7 @@ export default class Home extends React.Component<any,any> {
                                         <p style={{ fontWeight: 'bold', fontSize: '18px', lineHeight: '15px', letterSpacing: '0.085em', textTransform: 'uppercase', color: '#F0EBF5', marginBottom: '30px'}}>FEATURE</p>
                                         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px'}}>
                                             <div style={{ marginRight: '15px', fontSize: '34px', lineHeight: '32px', color: '#F1F4F7' }}>{stripe.header}</div>
-                                            <img src="https://res.cloudinary.com/dchyongyd/image/upload/v1639087269/Group_175_1_hpivlr.svg"/>
+                                            <img alt="arrow" src="https://res.cloudinary.com/dchyongyd/image/upload/v1639087269/Group_175_1_hpivlr.svg"/>
                                         </div>
                                         <p style={{fontSize: '18px', lineHeight: '140%', color: '#EBF2E6' }}>{stripe.author}</p>
                                         <p style={{fontSize: '18px', lineHeight: '140%', color: '#EBF2E6', marginTop: '-10px' }}>{stripe.location}</p>
