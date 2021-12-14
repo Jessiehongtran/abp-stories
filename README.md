@@ -1,1 +1,1 @@
-A 'magazine' way of presenting content to viewers. 
+A ['magazine'](https://abp-stories.netlify.app/) way of presenting content to viewers. 
