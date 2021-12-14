@@ -15,7 +15,7 @@ export default class Collate extends React.Component<any,any> {
         return (
             <div>
                 {images && images.length > 0
-                ? images.map(image => <img src={image}/>)
+                ? images.map(image => <img alt="frame" src={image}/>)
                 : null}
             </div>
         )
