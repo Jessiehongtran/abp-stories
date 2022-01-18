@@ -3,6 +3,7 @@ import './App.css';
 import Story from './views/story';
 import Home from './views/home';
 import Stories from './views/stories';
+import About from './views/about';
 import Nav from './views/nav';
 import { stories } from './data/stories';
 import { Route, Routes } from 'react-router-dom';
@@ -27,6 +28,14 @@ export default class App extends React.Component<any,any> {
               <>
                 <Nav />
                 <Stories />
+              </>
+            } />
+          <Route 
+            path="/about" 
+            element={
+              <>
+                <Nav />
+                <About />
               </>
             } />
          {stories.map(story => 
