@@ -13,7 +13,7 @@ export default class SubTitle extends React.Component <any, any> {
         const { text, color } = this.props;
 
         return (
-            <p style={{ fontFamily: 'Optimistic Display', fontSize: '30px', lineHeight: '70.5%', color:`${color}` }}>
+            <p style={{ fontFamily: 'Optimistic Display', fontSize: '30px', lineHeight: '116.5%', color:`${color}` }}>
                 {text}
             </p>
         )

@@ -23,7 +23,7 @@ export default class Stories extends React.Component {
     render(){
         return (
             <div style={{ background: '#EBF2E6', minHeight: '100vh', maxWidth: '100vw', display: 'flex', alignItems: 'center' }}>
-                <div className="content" style={{ maxWidth: '600px', boxSizing: 'border-box', padding: '0 8% 6% 8%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                <div className="content" style={{ maxWidth: '800px', boxSizing: 'border-box', padding: '0 8% 6% 8%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginRight: '80px'}}>
                     <Title color="#006B4E" text="Stories" />
                     <div className="text" style={{ display: 'flex', flexDirection: 'column', textAlign: 'left', fontSize: '18px', lineHeight: '140%' }}>
                         <SubTitle text="Transitioning to a New Era" color="#006B4E" /> 
